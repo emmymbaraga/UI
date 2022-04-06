@@ -22,10 +22,14 @@ ul{
 img{
     width: 60%;/*100% default*/
 }
+img.img-element{
+    width: 100%;
+    border-radius: 5px;
+}
 .container{
     position: relative;
     z-index: 5;
-    max-width: 92rem;/*92rem default*/
+    width: 100%;/*92rem default*/
     margin: 0 auto;
     padding: 0 4rem;
     /* background-color: var(--blue-color); */
@@ -35,6 +39,7 @@ img{
     grid-template-columns:repeat(2, 1fr);
     align-items: center;
     justify-content: center;
+    /* margin: 0 100px; */
 }
 .text{
     font-size: 1.25rem;
@@ -103,10 +108,16 @@ nav .container{
     /* min-height:calc(100vh-6rem); */
 }
 .column-1{
-    margin-right: 1.5rem;
+    margin-right: 2.0rem;
+}
+.column-1 img{
+    width: 50%;
+    margin: 10px 15px;
+    padding:0 20px;
 }
 .column-2{
-    margin-left: 1.5rem;
+    margin-left: 2rem;
+    
 }
 .header-title{
     font-size: 1.8rem;
@@ -150,10 +161,10 @@ nav .container{
     justify-items: center;
     /* z-index: 5; */
     height: 600px;/*92rem default*/
-    margin:10rem 0;
+    margin-top:8rem;
     padding: 4 4rem;
 }
-  .section-header h1.header-title{
+  .section-header h1.header-title,.section-header h4.header-title{
     text-align: center;
     margin: 3.5rem;
     text-transform: uppercase;
@@ -165,3 +176,99 @@ nav .container{
     justify-content: space-between;
     justify-items: center;
 } */
+/* social media icon */
+.fa {
+    padding: 10px;
+    font-size: 15px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 5px;
+  }
+  
+  .fa:hover {
+      background-color: #8193F1;
+      color: #000;
+      opacity: 0.7;
+      transition: 0.3s;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+.fa-whatsapp{
+    background: green;
+    color: white;
+} .fa-github{
+    background:rgb(43, 44, 43);
+    color: white;
+}
+  /* End of social media icon */
+  .skills {
+    margin:10px
+    
+  }
+  .pskills{
+    font-size: 20px;
+}
+
+.bar-1 {
+    background-color: rgb(192, 192, 192);
+    width: 80%;
+    border-radius: 15px;
+}
+
+.skill {
+    background-color: #8193F1;
+    color: white;
+    padding: 0.1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.html {
+    width: 90%;
+}
+
+.css {
+    width: 95%;
+}
+.javascript {
+    width:85%;
+}
+.nodejs{
+    width: 90%;
+}
+.php{
+    width: 95%;
+}
+.frontend {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.backend {
+    margin-left: 30px;
+}
