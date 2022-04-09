@@ -30,17 +30,14 @@ img.img-element{
     position: relative;
     z-index: 5;
     max-width: 100%;
-    /*92rem default*/
     margin: 0 auto;
     padding: 0 4rem;
-    /* background-color: var(--blue-color); */
 }
 .grid-2{
     display: grid;
     grid-template-columns:repeat(2, 1fr);
     align-items: center;
     justify-content: center;
-    /* margin: 0 100px; */
 }
 .text{
     font-size: 1.25rem;
@@ -87,7 +84,6 @@ nav .container{
     font-weight: 500;
     line-height: 1;
     transform: .3s;
-    /* background-color: #8193F1; */
 }
 .links a.active{
     background-color: antiquewhite;
@@ -156,13 +152,11 @@ nav .container{
 }
 .about-content{
     background-color: #8193F1;
-    /* border: 2px solid #000; */
     position: relative;
     display: flex;
     justify-content: center;
     justify-items: center;
-    /* z-index: 5; */
-    height: 700px;/*92rem default*/
+    height: 700px;
     margin-top:8rem;
     padding: 4 4rem;
 }
@@ -350,4 +344,7 @@ nav .container{
 
 .social-icons:hover {
 	color: #000;
+}
+.footer{
+    background-color: var(--blue-color);
 }

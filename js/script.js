@@ -5,12 +5,13 @@ document.querySelector('#email').innerHTML = 'info@bng.rw';
 document.querySelector('#phone').innerHTML = '+250785491895';
 
 //Footer
-document.getElementById("copyright").innerHTML="Company name &copy; " + new Date().getFullYear();
+document.getElementById("copyright").innerHTML="BNG.rw &copy; " + new Date().getFullYear();
 
 // Link to social media
-document.querySelector('#facebook').href = 'http://www.facebook.com';
-document.querySelector('#twitter').href = 'http://www.twitter.com';
-document.querySelector('#instagram').href = 'http://www.instagram.com';
-document.querySelector('#whatsapp').href = 'https://wa.me/+250788384757';
-document.querySelector('#youtube').href = 'http://www.youtube.com';
-document.querySelector('#linkedin').href = 'http://www.linkedin.com';
+document.querySelector('#facebook').href = 'https://www.facebook.com/emmymbaraga';
+document.querySelector('#twitter').href = 'https://www.twitter.com/EmmanuelMbaraga';
+document.querySelector('#instagram').href = 'https://www.instagram.com/nishimwemanudi/';
+document.querySelector('#linkedin').href = 'https://www.linkedin.com/in/emmanuel-mbaraga-nishimwe-b67750111/';
+document.querySelector('#youtube').href = 'https://www.youtube.com/channel/UCAqvKtKb8OEuax4heSU8GiQ';
+document.querySelector('#github').href = 'https://github.com/emmymbaraga';
+document.querySelector('#whatsapp').href = 'https://wa.me/+250785491895';
