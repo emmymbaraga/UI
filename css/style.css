@@ -29,17 +29,15 @@ img.img-element{
 .container{
     position: relative;
     z-index: 5;
-    width: 100%;/*92rem default*/
+    max-width: 100%;
     margin: 0 auto;
     padding: 0 4rem;
-    /* background-color: var(--blue-color); */
 }
 .grid-2{
     display: grid;
     grid-template-columns:repeat(2, 1fr);
     align-items: center;
     justify-content: center;
-    /* margin: 0 100px; */
 }
 .text{
     font-size: 1.25rem;
@@ -63,7 +61,8 @@ nav .container{
     justify-content: space-between;
     align-items: center;
     height: 4rem;
-    background-color:var(--blue-color)
+    background-color:var(--blue-color);
+    width:100%;
     
 }
 .logo{
@@ -74,6 +73,7 @@ nav .container{
 }
 .links ul{
     display: flex;
+    margin-top: 1.5rem;
 }
 .links a{
     display: inline-block;
@@ -84,14 +84,14 @@ nav .container{
     font-weight: 500;
     line-height: 1;
     transform: .3s;
-    /* background-color: #8193F1; */
 }
 .links a.active{
     background-color: antiquewhite;
     border-radius: 2rem;
     font-size: 1rem;
-    padding: 0.9rem 2.1rem;
+    padding: 0.3rem 1.5rem;
     margin-left: 1rem;
+    margin-top: 0.5rem;
 }
 /*end of header style*/
 .links a:hover{
@@ -105,7 +105,7 @@ nav .container{
     padding-bottom:2.5rem ;
     text-align: left;
     grid-template-columns:2.5fr 3.5fr;
-    /* min-height:calc(100vh-6rem); */
+    min-height:calc(100vh-6rem);
 }
 .column-1{
     margin-right: 2.0rem;
@@ -125,9 +125,7 @@ nav .container{
     color: var(--black-color);
     margin-top: 140px;
 }
-/* .header-content{
-    margin-left: 60px;
-} */
+
 .header-content .text{
     margin:0.15rem 0;
   
@@ -154,13 +152,11 @@ nav .container{
 }
 .about-content{
     background-color: #8193F1;
-    /* border: 2px solid #000; */
     position: relative;
     display: flex;
     justify-content: center;
     justify-items: center;
-    /* z-index: 5; */
-    height: 600px;/*92rem default*/
+    height: 700px;
     margin-top:8rem;
     padding: 4 4rem;
 }
@@ -170,12 +166,7 @@ nav .container{
     text-transform: uppercase;
     
 } 
-/* .about{
-    display: flex;
-     align-items: center; 
-    justify-content: space-between;
-    justify-items: center;
-} */
+
 /* social media icon */
 .fa {
     padding: 10px;
@@ -271,4 +262,89 @@ nav .container{
 }
 .backend {
     margin-left: 30px;
+}
+.textservice{
+    text-align: center;
+}
+#services,#skills{
+    margin-top:8rem;
+    padding: 4 4rem;
+}
+.services,.blogs{
+    margin: 30px;
+}
+
+.blogs .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+}
+
+.blogs .box-container .box{
+    overflow: hidden;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    background:#fff;
+}
+
+.blogs .box-container .box img{
+    height:25rem;
+    width:100%;
+    object-fit: cover;
+}
+
+.blogs .box-container .box .content{
+    padding:2rem;
+}
+
+.blogs .box-container .box .content .icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1rem;
+    border-bottom: var(--border);
+}
+
+.blogs .box-container .box .content .icons a{
+    color:var(--light-color);
+    font-size: 1.5rem;
+}
+
+.blogs .box-container .box .content .icons a:hover{
+    color:var(--black);
+}
+
+.blogs .box-container .box .content .icons a i{
+    color:var(--orange);
+    padding-right: .5rem;
+}
+
+.blogs .box-container .box .content h3{
+    line-height: 1.8;
+    color:var(--black);
+    font-size: 2.2rem;
+    padding:.5rem 0;
+}
+
+.blogs .box-container .box .content p{
+    line-height: 1.8;
+    color:var(--light-color);
+    font-size: 1.5rem;
+    padding:.5rem 0;
+}
+.icons-container {
+	width: 40px;
+}
+
+.social-icons {
+	font-size: 2em;
+	color: #fff;
+}
+
+.social-icons:hover {
+	color: #000;
+}
+.footer{
+    background-color: var(--blue-color);
 }
