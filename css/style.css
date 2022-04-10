@@ -307,7 +307,7 @@ nav .container{
 }
 
 .blogs .box-container .box .content .icons a{
-    color:var(--light-color);
+    color:var(--black-color);
     font-size: 1.5rem;
 }
 
@@ -316,7 +316,7 @@ nav .container{
 }
 
 .blogs .box-container .box .content .icons a i{
-    color:var(--orange);
+    color:var(--blue-color);
     padding-right: .5rem;
 }
 
