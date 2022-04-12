@@ -34,7 +34,7 @@ function signIn(e) {
         alert("Incorrect login credentials");
     }
     else{
-        location.href = "/";
+        location.href = "./index.html";
     }
     e.preventDefault();
 }
