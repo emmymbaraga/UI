@@ -63,6 +63,7 @@ nav .container{
     height: 4rem;
     background-color:var(--blue-color);
     width:100%;
+    position: fixed;
     
 }
 .logo{
@@ -74,6 +75,7 @@ nav .container{
 .links ul{
     display: flex;
     margin-top: 1.5rem;
+    
 }
 .links a{
     display: inline-block;
@@ -348,3 +350,8 @@ nav .container{
 .footer{
     background-color: var(--blue-color);
 }
+#about,#skills,#services,#blog,#contact{
+    padding-top: 50px;
+}
+
+
